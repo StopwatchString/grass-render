@@ -1,0 +1,129 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Header Files\GLFW">
+      <UniqueIdentifier>{6c1ef4d0-8304-4bff-abc7-4d5508719c24}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\glh">
+      <UniqueIdentifier>{e420a5f8-f7fc-46e4-8b4b-70e27e817bcc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\glh\glad">
+      <UniqueIdentifier>{26649e1d-2778-450c-9714-b3ee768a54ab}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\glh\glh">
+      <UniqueIdentifier>{a586aa3a-ab2b-46dd-aa08-1ae6c3b615f9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\glh">
+      <UniqueIdentifier>{cff79ba0-7796-4f5f-90e9-fd37f98cf682}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\glh\glad">
+      <UniqueIdentifier>{daedf2ba-038a-4636-af63-e72e9c57e1e8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\glh\glh">
+      <UniqueIdentifier>{81f097bd-4ae8-4e5b-bb52-592bfba3a847}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\glh\KHR">
+      <UniqueIdentifier>{99298f6b-81d4-4408-b064-374b079260cc}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="include\GLFW\glfw3.h">
+      <Filter>Header Files\GLFW</Filter>
+    </ClInclude>
+    <ClInclude Include="include\GLFW\glfw3native.h">
+      <Filter>Header Files\GLFW</Filter>
+    </ClInclude>
+    <ClInclude Include="extern\glh\include\glad\gl.h">
+      <Filter>Header Files\glh\glad</Filter>
+    </ClInclude>
+    <ClInclude Include="extern\glh\include\glad\wgl.h">
+      <Filter>Header Files\glh\glad</Filter>
+    </ClInclude>
+    <ClInclude Include="extern\glh\include\glh\EBO.h">
+      <Filter>Header Files\glh\glh</Filter>
+    </ClInclude>
+    <ClInclude Include="extern\glh\include\glh\glh.h">
+      <Filter>Header Files\glh\glh</Filter>
+    </ClInclude>
+    <ClInclude Include="extern\glh\include\glh\macros.h">
+      <Filter>Header Files\glh\glh</Filter>
+    </ClInclude>
+    <ClInclude Include="extern\glh\include\glh\PBO.h">
+      <Filter>Header Files\glh\glh</Filter>
+    </ClInclude>
+    <ClInclude Include="extern\glh\include\glh\Program.h">
+      <Filter>Header Files\glh\glh</Filter>
+    </ClInclude>
+    <ClInclude Include="extern\glh\include\glh\Shader.h">
+      <Filter>Header Files\glh\glh</Filter>
+    </ClInclude>
+    <ClInclude Include="extern\glh\include\glh\Texture.h">
+      <Filter>Header Files\glh\glh</Filter>
+    </ClInclude>
+    <ClInclude Include="extern\glh\include\glh\UBO.h">
+      <Filter>Header Files\glh\glh</Filter>
+    </ClInclude>
+    <ClInclude Include="extern\glh\include\glh\Utils.h">
+      <Filter>Header Files\glh\glh</Filter>
+    </ClInclude>
+    <ClInclude Include="extern\glh\include\glh\VAO.h">
+      <Filter>Header Files\glh\glh</Filter>
+    </ClInclude>
+    <ClInclude Include="extern\glh\include\glh\VBO.h">
+      <Filter>Header Files\glh\glh</Filter>
+    </ClInclude>
+    <ClInclude Include="extern\glh\include\KHR\khrplatform.h">
+      <Filter>Header Files\glh\KHR</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="src\main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="extern\glh\src\glad\gl.c">
+      <Filter>Source Files\glh\glad</Filter>
+    </ClCompile>
+    <ClCompile Include="extern\glh\src\glad\wgl.c">
+      <Filter>Source Files\glh\glad</Filter>
+    </ClCompile>
+    <ClCompile Include="extern\glh\src\glh\EBO.cpp">
+      <Filter>Source Files\glh\glh</Filter>
+    </ClCompile>
+    <ClCompile Include="extern\glh\src\glh\PBO.cpp">
+      <Filter>Source Files\glh\glh</Filter>
+    </ClCompile>
+    <ClCompile Include="extern\glh\src\glh\Program.cpp">
+      <Filter>Source Files\glh\glh</Filter>
+    </ClCompile>
+    <ClCompile Include="extern\glh\src\glh\Shader.cpp">
+      <Filter>Source Files\glh\glh</Filter>
+    </ClCompile>
+    <ClCompile Include="extern\glh\src\glh\Texture.cpp">
+      <Filter>Source Files\glh\glh</Filter>
+    </ClCompile>
+    <ClCompile Include="extern\glh\src\glh\UBO.cpp">
+      <Filter>Source Files\glh\glh</Filter>
+    </ClCompile>
+    <ClCompile Include="extern\glh\src\glh\Utils.cpp">
+      <Filter>Source Files\glh\glh</Filter>
+    </ClCompile>
+    <ClCompile Include="extern\glh\src\glh\VAO.cpp">
+      <Filter>Source Files\glh\glh</Filter>
+    </ClCompile>
+    <ClCompile Include="extern\glh\src\glh\VBO.cpp">
+      <Filter>Source Files\glh\glh</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
